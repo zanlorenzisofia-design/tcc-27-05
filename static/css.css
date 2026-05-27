@@ -1,18 +1,20 @@
-.minha-navbar {
-  background-color: #6f42c1 !important; /* Coloque sua cor aqui */
+
+.btn-busca-custom {
+    background-color: #ffffff;
+    color: #192A6B;
+    border: 1px solid rgba(0,0,0,0.08);
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+    transition: background-color 0.15s ease, transform 0.08s ease;
 }
 
-/* 2. Muda a cor dos links para branco */
-.minha-navbar .nav-link {
-  color: rgba(255, 255, 255, 0.75) !important;
+.btn-busca-custom:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-1px);
 }
 
-/* 3. Muda a cor do link ativo (página atual) */
-.minha-navbar .nav-link.active {
-  color: #ffffff !important;
-}
-
-/* 4. Muda a cor do ícone do botão hambúrguer no celular */
-.minha-navbar .navbar-toggler-icon {
-  filter: invert(1); /* Transforma o ícone preto em branco */
+.form-control.me-2 {
+    max-width: 220px; 
 }
