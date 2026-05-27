@@ -1,0 +1,18 @@
+.minha-navbar {
+  background-color: #6f42c1 !important; /* Coloque sua cor aqui */
+}
+
+/* 2. Muda a cor dos links para branco */
+.minha-navbar .nav-link {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* 3. Muda a cor do link ativo (página atual) */
+.minha-navbar .nav-link.active {
+  color: #ffffff !important;
+}
+
+/* 4. Muda a cor do ícone do botão hambúrguer no celular */
+.minha-navbar .navbar-toggler-icon {
+  filter: invert(1); /* Transforma o ícone preto em branco */
+}
