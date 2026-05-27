@@ -1,20 +1,16 @@
-
-.btn-busca-custom {
-    background-color: #ffffff;
-    color: #192A6B;
-    border: 1px solid rgba(0,0,0,0.08);
-    padding: 6px 12px;
-    border-radius: 6px;
-    cursor: pointer;
-    box-shadow: 0 1px 0 rgba(0,0,0,0.04);
-    transition: background-color 0.15s ease, transform 0.08s ease;
-}
-
-.btn-busca-custom:hover {
-    background-color: #f1f1f1;
-    transform: translateY(-1px);
-}
-
 .form-control.me-2 {
     max-width: 220px; 
+}
+
+.nav-link-animado {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out; 
+}
+
+.nav-link-animado:hover {
+    transform: scale(1.15); 
+}
+
+.nav-link-animado:active {
+    transform: scale(0.95); 
 }
