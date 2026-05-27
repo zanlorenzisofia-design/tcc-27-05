@@ -1,3 +1,8 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ff0000;
+}
+
 .form-control.me-2 {
     max-width: 220px; 
 }
