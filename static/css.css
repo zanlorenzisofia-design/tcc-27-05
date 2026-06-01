@@ -19,6 +19,7 @@ body {
 .nav-link-animado:active {
     transform: scale(0.95); 
 }
+<<<<<<< HEAD
 
 .tabela-almoxarifado {
     width: 100%;
@@ -40,3 +41,5 @@ body {
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
+=======
+>>>>>>> 4f35807ea0d35500e07466692e4bb50e708401f5
